@@ -1,0 +1,14 @@
+{
+  "name": "s68_blaugrana",
+  "version": "1.0.0",
+  "description": "Project Title\r -\r \"Top Last-Minute Goals in Football\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
