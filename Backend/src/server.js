@@ -1,19 +1,15 @@
-
 const express = require('express');
-const router = require('../router/router');
+const router = require('../Router/router');
 
 const app = express();
 
-
 const PORT = 9090;
 
-
-app.get('/', (req, res) => {
-  res.send('Hello World');
+app.get('/ping', (req, res) => {
+  res.send('pong');
 });
-
-app.use('/ping', router)
+app.use('/ping',router);
 
 app.listen(PORT, () => {
-  console.log(`Server is running on ${PORT}`);
+  console.log(`Server is running on ${PORT}`);
 });
