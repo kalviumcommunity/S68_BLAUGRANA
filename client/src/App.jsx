@@ -1,8 +1,8 @@
 import React from "react";
-import LandingPage from "./Components/Landingpage";
+import Landingpage from "./Components/Landingpage";
 
 function App() {
-  return <LandingPage />;
+  return <Landingpage />;
 }
 
 export default App;
